@@ -1,7 +1,7 @@
 # 2048 Tiny - 仅25KB的安卓版2048游戏
 
 [![Android](https://img.shields.io/badge/Android-4.0%2B-brightgreen.svg)](https://android.com)
-[![APK Size](https://img.shields.io/badge/APK-25KB-blue.svg)](https://github.com/yourusername/2048-tiny/releases)
+[![APK Size](https://img.shields.io/badge/APK-25KB-blue.svg)](https://github.com/zhangzm0/2048-tiny/releases)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
 > 🎯 极致精简的2048游戏实现，安装包仅25KB！比一张图片还小！
@@ -20,7 +20,7 @@
 ## 📥 下载安装
 
 直接下载APK文件安装：
-[下载 latest-release.apk](https://github.com/yourusername/2048-tiny/releases/latest)
+[下载 latest-release.apk](https://github.com/zhangzm0/2048-tiny/releases/latest)
 
 ## 🛠️ 构建说明
 
@@ -32,7 +32,7 @@
 ### 构建步骤
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/2048-tiny.git
+git clone https://github.com/zhangzm0/2048-tiny.git
 
 # 构建发布版本
 cd 2048-tiny

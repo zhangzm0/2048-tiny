@@ -1,7 +1,7 @@
 # 2048 Tiny - 25KB Android 2048 Game
 
 [![Android](https://img.shields.io/badge/Android-4.0%2B-brightgreen.svg)](https://android.com)
-[![APK Size](https://img.shields.io/badge/APK-25KB-blue.svg)](https://github.com/yourusername/2048-tiny/releases)
+[![APK Size](https://img.shields.io/badge/APK-25KB-blue.svg)](https://github.com/zhangzm0/2048-tiny/releases)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
 > 🎯 Ultra-lightweight 2048 implementation - only 25KB APK! Smaller than most images!
@@ -20,7 +20,7 @@
 ## 📥 Download & Install
 
 Direct APK download:
-[Download latest-release.apk](https://github.com/yourusername/2048-tiny/releases/latest)
+[Download latest-release.apk](https://github.com/zhangzm0/2048-tiny/releases/latest)
 
 ## 🛠️ Build Instructions
 
@@ -32,7 +32,7 @@ Direct APK download:
 ### Build Steps
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/2048-tiny.git
+git clone https://github.com/zhangzm0/2048-tiny.git
 
 # Build release version
 cd 2048-tiny
