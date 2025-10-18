@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.tiny.game2048"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        
+        resConfigs "en"
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            crunchPngs false
+            zipAlignEnabled true
+        }
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+    
+    buildFeatures {
+        buildConfig false
+        viewBinding false
+        dataBinding false
+    }
+    
+    aaptOptions {
+        cruncherEnabled = false
+    }
+}
+
+dependencies {
+    // 无依赖 - 完全自己实现
+}
